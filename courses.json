@@ -1,0 +1,16 @@
+{
+    "CS101": {
+        "name": "Programming1",
+        "prerequisites": []
+    },
+    "CS102": {
+        "name": "Programming2",
+        "prerequisites": [
+            "CS101"
+        ]
+    },
+    "CS103": {
+        "name": "Algorithns",
+        "prerequisites": []
+    }
+}

@@ -1,0 +1,42 @@
+Course Planner
+
+Project Description
+
+Course Planner is a Python application that organizes university courses based on their prerequisites using Topological Sort.
+
+Features
+
+- Add courses and their prerequisites.
+- Display all available courses.
+- Order courses using Topological Sort.
+- Detect and report cycles in course prerequisites.
+- Save course data in a JSON file.
+
+Algorithms Used
+
+- Kahn's Algorithm (Topological Sort)
+- Depth First Search (DFS) for cycle detection.
+
+Technologies Used
+
+- Python
+- Graph Data Structure
+- JSON File Handling
+
+How to Run
+
+1. Open the project in PyCharm.
+2. Run "main.py".
+3. Add courses and their prerequisites.
+4. Select the Topological Sort option to get the recommended course order.
+
+Project Files
+
+- "main.py": Main Python code.
+- "courses.json": Stores course information.
+
+Expected Result
+
+The program displays a valid course order if no cycle exists. If a cycle is detected, it reports the cycle path.
+
+Project completed successfully!
